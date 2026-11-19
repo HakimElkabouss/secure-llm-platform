@@ -26,7 +26,7 @@ The risks and the controls are described in the [threat model](docs/threat-model
 - [x] Threat model (risks R1–R9, controls M1–M7)
 - [x] Gateway with a single allowed route (M3)
 - [x] API key authentication, fail-closed (M2)
-- [ ] Rate limiting and prompt size limit (M4)
+- [x] Rate limiting and prompt size limit (M4)
 - [ ] Secret and personal data redaction (M5)
 - [ ] Prompt injection detection (M6)
 - [ ] Security logs in JSON for a SIEM (M7)
