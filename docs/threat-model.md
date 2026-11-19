@@ -83,6 +83,9 @@ Ce qui reste possible même avec toutes les mesures, à accepter ou à traiter p
 - Une clé API volée donne accès au service. → Les limites (M4) et les
   journaux (M7) réduisent et révèlent l'abus.
 - Le masquage des secrets ne reconnaît que les formats connus.
+- La limite de requêtes (M4) est gardée en mémoire dans la gateway. Elle est
+  remise à zéro à chaque redémarrage, et ne fonctionne correctement qu'avec une
+  seule copie de la gateway. → Amélioration prévue : un compteur partagé (Redis).
 
 ## 8. Références
 
